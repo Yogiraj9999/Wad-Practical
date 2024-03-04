@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div>
+                <h2>Student Information :</h2>
+                <div>
+                    <h5>___________________________________________________</h5>
+                </div>
+            </div>
+            <div>
+                <h6>NAME :</h6>
+                    <script>
+                        document.write(localStorage.getItem("name"));
+                    </script>
+            </div>
+            <div>
+                <h6>CONTACT :</h6>
+                    <script>
+                        document.write(localStorage.getItem("contact"));
+                    </script>
+            </div>
+            <div>
+                <h6>ADDRESS :</h6>
+                    <script>
+                        document.write(localStorage.getItem("add"));
+                    </script>
+            </div>
+            <div class="my-2">
+                <input type="button" class="btn btn-outline-primary" onclick="location.href='index.html';" value="HOME" />
+            </div>
+
+    </div>    
+</body>
+</html>

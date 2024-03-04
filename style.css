@@ -1,0 +1,24 @@
+.container{
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    background-color: chocolate;
+}
+
+.card{
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/* .abc{
+    height: auto;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+} */
+
